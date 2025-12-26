@@ -1,0 +1,16 @@
+# Secrets
+.env
+.env.*
+backend/apps/api/.env
+backend/apps/api/.secrets/
+**/*.secrets/
+**/*token*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node / Next
+node_modules/
+.next/
